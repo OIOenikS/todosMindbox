@@ -1,0 +1,39 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  padding: 6px 14px; 
+}
+
+.status,
+.bttn {
+  color: var(--active-color);
+  font-size: var(--font-control-size);
+}
+
+.control {
+  display: flex;
+  gap: 10px;
+}
+
+.bttn {
+  font-family: var(--font-main);
+  color: var(--active-color);
+  background-color: var(--transperent-color);
+  border: 2px solid var(--transperent-color);
+  border-radius: 3px;
+  padding: 3px 7px;
+  justify-self: center;
+}
+
+.bttn:last-child {
+  justify-self: end;
+}
+
+.bttn:hover {
+  border: 2px solid var(--active-color);
+}
+
+.bttn-active {
+  border: 2px solid var(--title-color);
+}
