@@ -1,4 +1,11 @@
 @import '../fonts/font.scss';
+@import './varibile';
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 
 html,
 div,
