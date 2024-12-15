@@ -1,0 +1,12 @@
+.title {
+  font-family: var(--font-title);
+  font-size: var(--title-size);
+  color: var(--title-color);
+}
+
+.main {
+  width: 572px;
+  min-height: 293px;
+  background-color: var(--bg-todo-color);
+  box-shadow: 0 2px 5px var(--control-color);
+}
