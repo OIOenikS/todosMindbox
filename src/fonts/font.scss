@@ -1,7 +1,24 @@
 @font-face {
-  font-family: 'Euclid-Circular-A';
+  font-family: 'HelveticaNeueCyr';
   src:
-    url('../fonts/font-files/EuclidCircularA-Regular.woff2') format('woff2');
+    url('../fonts/font-files/HelveticaNeueCyr-Thin.woff2') format('woff2');
+  font-weight: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'HelveticaNeueCyr-italic';
+  src:
+    url('../fonts/font-files/HelveticaNeueCyr-ThinItalic.woff2') format('woff2');
+  font-weight: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: 'HelveticaNowDisplay';
+  src:
+    url('../fonts/font-files/HelveticaNowDisplay-Hairline.woff2') format('woff2');
   font-weight: normal;
   font-display: swap;
 }
