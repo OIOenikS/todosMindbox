@@ -1,32 +1,32 @@
 .app {
-  font-family: var(--font-main);
-  font-size: var(--font-main-size);
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: var(--bg-app-color);
-  gap: 7px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 7px;
+	width: 100%;
+	height: 100vh;
+	font-size: var(--font-main-size);
+	font-family: var(--font-main);
+	background-color: var(--bg-app-color);
 }
 
 .title {
-  font-family: var(--font-title);
-  font-size: var(--title-size);
-  color: var(--title-color);
+	color: var(--title-color);
+	font-size: var(--title-size);
+	font-family: var(--font-title);
 }
 
 .main {
-  display: flex;
-  flex-direction: column;
-  width: 572px;
-  min-height: 293px;
-  background-color: var(--bg-todo-color);
-  box-shadow: 0 2px 5px var(--control-color);
+	display: flex;
+	flex-direction: column;
+	width: 572px;
+	min-height: 293px;
+	background-color: var(--bg-todo-color);
+	box-shadow: 0 2px 5px var(--control-color);
 }
 
 .text {
-  color: var(--control-color);
-  flex-grow: 1;
-  margin: 10px;
+	flex-grow: 1;
+	margin: 10px;
+	color: var(--control-color);
 }

@@ -1,7 +1,7 @@
 export type TTask = {
-  id: string,
-  task: string,
-  status: 'active' | 'completed'
+	id: string
+	task: string
+	status: 'active' | 'completed'
 }
 
-export type TStatusToDoPage =  'all' | 'active' | 'completed';
+export type TStatusToDoPage = 'all' | 'active' | 'completed'
