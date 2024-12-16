@@ -30,6 +30,10 @@
   justify-self: end;
 }
 
+.bttn:last-child:active {
+  border: 2px solid var(--title-color);
+}
+
 .bttn:hover {
   border: 2px solid var(--active-color);
 }
