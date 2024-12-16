@@ -23,7 +23,12 @@ export const Form: FC<TFormProps> = ({setTasks}) => {
       status: 'active'
     }
 		setTasks((prevTasks) => {
-      return [...prevTasks, newTask];
+      if (!prevTasks) {
+        return [ newTask ]
+      } else {
+        return [...prevTasks, newTask]
+      }
+      
     })
     setValue('');
 	}

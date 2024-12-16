@@ -26,11 +26,6 @@
   left: 0%;
 }
 
-.bttn:hover::before {
-  border-right: solid 4px var(--active-color);
-  border-bottom: solid 4px var(--active-color);
-}
-
 .label {
   width: 100%;
 }
