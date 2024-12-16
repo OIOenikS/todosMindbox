@@ -6,7 +6,7 @@ import { ToDoListItem } from '../todo-list-item/todo-list-item'
 
 export const ToDoList: FC<TToDoListProps> = ({ tasks, setStatusTask }) => {
 	return (
-		<ul className={styles.list}>
+		<ul className={styles.list} data-testid={'todo-list'}>
 			{tasks.map((task) => {
 				return (
 					<ToDoListItem

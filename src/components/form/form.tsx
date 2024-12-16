@@ -43,6 +43,7 @@ export const Form: FC<TFormProps> = ({ setTasks }) => {
 					value={value}
 					placeholder='What needs to be done?'
 					required
+					data-testid={'input-todo'}
 				/>
 			</label>
 		</form>
