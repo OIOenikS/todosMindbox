@@ -3,3 +3,5 @@ export type TTask = {
   task: string,
   status: 'active' | 'completed'
 }
+
+export type TStatusToDoPage =  'all' | 'active' | 'completed';
