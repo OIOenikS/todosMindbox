@@ -9,3 +9,24 @@
   background-color: var(--bg-app-color);
   gap: 7px;
 }
+
+.title {
+  font-family: var(--font-title);
+  font-size: var(--title-size);
+  color: var(--title-color);
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  width: 572px;
+  min-height: 293px;
+  background-color: var(--bg-todo-color);
+  box-shadow: 0 2px 5px var(--control-color);
+}
+
+.text {
+  color: var(--control-color);
+  flex-grow: 1;
+  margin: 10px;
+}
